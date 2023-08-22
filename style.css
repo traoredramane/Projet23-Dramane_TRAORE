@@ -11,7 +11,7 @@ header{
 }
 nav{
     background-color: black;
-    height: 13vh;
+    height: 15vh;
 }
 
 .nav1{
@@ -120,21 +120,23 @@ nav{
     padding-bottom: 50px
 }
 .sec-2 ul li{
-    text-align: center;
+    
     
 }
 .sec-3{
-  
+ width: 500px; 
 }
 .sec0{
     display: flex;
     justify-content: space-between;
-    text-align: center;
+   
+   padding-left: 200px;
+   padding-right: 200px;
 }
 
 .sec-0{
 
-text-align: center;
+
 }
 .pre{
     padding-bottom: 20px;
@@ -268,4 +270,107 @@ footer{
 }
 .pro h2{
     
+}
+
+/* partie contact */
+
+.sec-6-1 {
+    text-align: center;
+
+}
+
+.sec-6-2 {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.sec6 {
+    color: #FFC107;
+    font-size: 88px;
+}
+.sec6-1 {
+    font-size: 20px;
+    color: rgb(38, 38, 229);
+}
+
+/* partie footer 3 */
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(DCLIC\ Mada.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+     color: #fff;
+     margin-bottom: 40px;
+     padding: 0;
+}
+ .hero-btn{
+     color: #fff;
+     padding: 10px 5px;
+     background-color: #f44336;
+     text-decoration: none;
+     border-radius: 10px;
+     border: 1px solid black;
+ }
+ @media(max-width: 300px){
+     .cta h1{
+        font-size: 20px; 
+     }
+ }
+
+/* footer */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icon5 .va {
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart-o{
+    color: #f44336;
+}
+
+/* partie experience */
+
+
+
+.facile{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+   
+}
+
+
+.facile2{
+   margin-top: 50px;
+}
+.fac3{
+    color: #FFC107;
+    font-size: 70px;  
+}
+.bur{
+   font-size: 30px;
+}
+
+.valeur{
+    font-size: 25px;
+    color: #FFC107;
 }
